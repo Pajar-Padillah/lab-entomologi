@@ -1,0 +1,120 @@
+.menu-sidebar {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	width: 20%;
+	background-color: #048a21; /*background-color: #FFBF00;*/
+	position: fixed;
+	height: 100%;
+	overflow: auto;
+	font-family: sans-serif;
+	color: white;
+}
+
+.isi-menu a,
+.dropdown-btn {
+	padding: 6px 8px 6px 16px;
+	text-decoration: none;
+	color: white;
+	display: block;
+	border: none;
+	background: none;
+	width: 100%;
+	text-align: left;
+	cursor: pointer;
+	outline: none;
+	font-family: sans-serif;
+}
+
+.dropdown-container {
+	display: none;
+	background-color: #36ae7c;
+	padding-left: 8px;
+}
+
+/* Optional: Style the caret down icon */
+.fa-caret-down {
+	float: right;
+	padding-right: 8px;
+}
+
+.isi-menu a.active {
+	background-color: grey;
+	color: white;
+}
+.dropdown-btn.active {
+	background-color: grey;
+	color: white;
+}
+
+.isi-menu a:hover:not(.active) {
+	background-color: grey;
+	color: white;
+}
+.wrapper-menu {
+	justify-content: center;
+	align-items: center;
+	width: 80%;
+	background-position: center;
+	background-size: cover;
+}
+
+.header {
+	margin-left: 20%;
+	padding: 6px 16px;
+	background-color: #2efc05e5;
+	text-align: right;
+	color: white;
+}
+
+.wrapper-konten {
+	margin-left: 20%;
+	padding: 10px 16px;
+	min-height: 33rem;
+	background-color: #cee5d0;
+}
+
+.border-tabel {
+	border: 1px solid;
+	border-color: black;
+	border-collapse: collapse;
+	word-wrap: break-word;
+	text-align: center;
+}
+.header-tabel {
+	background-color: yellow;
+}
+
+.judul-laporan {
+	text-align: center;
+	margin-bottom: 80px;
+}
+
+.data-user {
+	margin-top: 20px;
+	display: flex;
+	min-height: 50px;
+	justify-content: center;
+	border-bottom: 1px solid;
+}
+
+.footer {
+	height: 55px;
+	justify-content: center;
+	background-color: #2efc05e5;
+	text-decoration: none;
+	color: black;
+	text-align: center;
+}
+
+.footer .copyright {
+	float: right;
+}
+
+.avatar {
+	vertical-align: middle;
+	width: 50px;
+	height: 50px;
+	margin-right: 20px;
+	border-radius: 50%;
+}

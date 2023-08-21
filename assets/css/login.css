@@ -1,0 +1,89 @@
+.wrapper-l {
+	max-width: 750px;
+	min-height: 450px;
+	/*margin: 80px auto;
+    padding: 40px 30px 30px 30px;*/
+	background-color: white;
+	text-align: right;
+	border-radius: 15px;
+	margin: 80px auto;
+
+	/*box-shadow: 13px 13px 20px #cbced1, -13px -13px 20px #fff;*/
+}
+
+.wrap-gambar {
+	background-color: greenyellow;
+}
+
+.text-logo {
+	color: #111;
+	font-weight: 500;
+	font-size: 2rem;
+	text-align: center;
+	display: block;
+	text-transform: capitalize;
+}
+
+.login-text {
+	color: #111;
+	font-weight: 500;
+	font-size: 2rem;
+	text-align: center;
+	display: block;
+	text-transform: capitalize;
+}
+.text-alert {
+	text-align: center;
+	display: block;
+}
+.text-input {
+	margin-top: 100px;
+}
+
+.logo {
+	text-align: center;
+	margin-top: 80px;
+	display: block;
+}
+.s {
+	background-image: url(../images/balaikarantina.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.btn-login {
+	/*text-align: left;
+    outline: none;
+    border-radius: 20px;
+    font-size: 1rem;
+    color: #FFF;
+    cursor: pointer;*/
+	/*    background: -webkit-linear-gradient(left, greenyellow, blue);
+    background-color: #24c64f;
+  border: none;
+  border-radius: 21px;
+  cursor: pointer;
+  color: white;
+  height: 42.3px;
+  margin: 0 auto;
+  margin-top: 50px;
+  transition: 0.25s;
+  width: 153px;*/
+
+	display: inline-block;
+	width: 40%;
+	text-align: center;
+	border: none;
+	background: green;
+	outline: none;
+	border-radius: 15px;
+	color: #fff;
+	cursor: pointer;
+	transition: 0.3s;
+	margin-top: 50px;
+	margin-bottom: 30px;
+}
+
+.tebal {
+	font-weight: bold;
+}
